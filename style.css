@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&family=Zen+Old+Mincho:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Maru+Gothic&family=Zen+Old+Mincho:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.nav_link {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Zen Maru Gothic' sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_logo_pic {
+    position: absolute;
+    background-image: url(./images/nav_logo_mobile.svg);
+    width: 25px;
+    height: 24px;
+    left: 168.5px;
+
+}
+
+.header_text_H1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.header_text_p {
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.nav {
+    background-image: url(./images/nav_background.png);
+    height: 416px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 33px;
+    left: 5%;
+    padding-top: 14px;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+}
+
+.nav_link_last {
+    position: absolute;
+    right: 5%;
+}
+
+.main_section {
+    position: absolute;
+    height: 1320px;
+    width: 100%;
+    left: 0px;
+    top: 416px;
+    border-radius: 0px;
+    background-image: url(./images/main_section_bg.png);
+    margin: 0;
+    padding: 0;
+}
+
+.main_section_h2 {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.main_section_p {
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: Zen Kaku Gothic New;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.gallery-container {
+    overflow-x: auto; 
+  }
+  
+  .gallery {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+  }
+
+  .main_section_button {
+    display: flex;
+    text-decoration: none;
+    width: 120px;
+    height: 29px;
+    top: 730px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .main_section_button_p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Zen Maru Gothic' sans-serif;
+    line-height: 30px;
+    color: #7270FF;
+  }
+
+  .main_section_Philosophy {
+    position: absolute;
+    top: 780px;
+  }
+
+  .section_2_teaser {
+    background-image: url(./images/section2_teaser.png);
+    height: 215px;
+    width: 319px;
+    position: relative;
+    left: 47%;
+    transform: translateX(-50%);
+    border-radius: 0px;
+    margin-bottom: 39px;
+
+  }
