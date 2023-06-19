@@ -22,11 +22,14 @@ body {
     background-image: url(./images/nav_logo_mobile.svg);
     width: 25px;
     height: 24px;
-    left: 168.5px;
+    left: 50%;
+    transform: translateX(-50%);
 
 }
 
 .header_text_H1 {
+  position: relative;
+  top: 50px;
     font-weight: 700;
     font-size: 60px;
     color: white;
@@ -40,6 +43,7 @@ body {
     text-align: center;
     font-size: 15px;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    position: relative;
 }
 
 .nav {
@@ -101,19 +105,19 @@ body {
 }
 
 .gallery-container {
-    overflow-x: auto; 
-  }
-  
-  .gallery {
-    display: flex;
-    width: fit-content;
-  }
-  
-  .gallery img {
-    width: 100%;
-    height: auto; 
-    object-fit: cover;
-  }
+  overflow-x: auto; 
+}
+
+.gallery-section {
+  display: flex;
+  width: fit-content;
+}
+
+.gallery-section img {
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+}
 
   .main_section_button {
     display: flex;
@@ -127,11 +131,11 @@ body {
   }
 
   .main_section_button_p {
+    display: block;
     font-size: 20px;
     font-weight: 400;
     font-family: 'Zen Maru Gothic' sans-serif;
     line-height: 30px;
-    color: #7270FF;
   }
 
   .main_section_Philosophy {
@@ -150,3 +154,150 @@ body {
     margin-bottom: 39px;
 
   }
+
+  .footerbg {
+    position: absolute;
+    background-image: url(./images/footerbg.png);
+    height: 26em;
+    width: 100%;
+    top: 1735px;
+    margin: auto;
+  }
+
+  .footer_p {
+    color: white;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .footer_line {
+    background-image: url(./images/footer_line.svg);
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 15px;
+  }
+
+  .footer_socials {
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 130px;
+  }
+
+  .footer_content {
+    position: relative;
+    top: 210px;
+    z-index: 1;
+  }
+
+
+  .about_section_photo1 {
+    background-image: url(./images/about_photo1.png);
+    height: 290px;
+    width: 320px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+
+  }
+
+.bigline {
+  background-image: url(./images/about_big_line.svg);
+  height: 2px;
+  width: 319.0008548285137px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 972px;
+
+}
+
+  .about_section_photo2 {
+    background-image: url(./images/about_photo2.png);
+    height: 290px;
+    width: 320px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+
+  }
+
+  .section_position1 {
+    padding-top: 120px;
+  }
+
+.footer_content_position1 {
+  top: 0px;
+  margin-bottom: 100px;
+}
+
+  .header_text_H1_position1 {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .gallery_img1 {
+    background-image: url(./images/gallery/image1.png);
+  }
+
+  .gallery_img2 {
+    background-image: url(./images/gallery/image2.png);
+  }
+  .gallery_img3 {
+    background-image: url(./images/gallery/image3.png);
+  }
+
+  .gallery_img4 {
+    background-image: url(./images/gallery/image4.png);
+  }
+
+  .gallery_img5 {
+    background-image: url(./images/gallery/image5.png);
+  }
+
+  .gallery_img6 {
+    background-image: url(./images/gallery/image6.png);
+  }
+
+  .gallery_img7 {
+    background-image: url(./images/gallery/image7.png);
+  }
+
+  .gallery_img8 {
+    background-image: url(./images/gallery/image8.png);
+  }
+
+  .gallery_img9 {
+    background-image: url(./images/gallery/image9.png);
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+  }
+  
+  .gallery_image {
+    width: 320px;
+    height: 290px;
+    margin-bottom: 20px; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
