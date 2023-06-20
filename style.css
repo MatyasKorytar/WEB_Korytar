@@ -9,7 +9,7 @@ body {
     background-color: black;
 }
 
-.nav_link {
+.nav__link {
     font-weight: 400;
     font-size: 20px;
     font-family: 'Zen Maru Gothic' sans-serif;
@@ -17,7 +17,7 @@ body {
     color: white;
 }
 
-.nav_logo_pic {
+.nav__logo-pic {
     position: absolute;
     background-image: url(./images/nav_logo_mobile.svg);
     width: 25px;
@@ -27,7 +27,7 @@ body {
 
 }
 
-.header_text_H1 {
+.header__text-h1 {
   position: relative;
   top: 50px;
     font-weight: 700;
@@ -37,7 +37,7 @@ body {
     font-family: 'Zen Old Mincho', serif;
 }
 
-.header_text_p {
+.header__text-p {
     font-weight: 300;
     color: white;
     text-align: center;
@@ -57,7 +57,7 @@ body {
     padding: 0;
 }
 
-.navbar {
+.nav__navbar {
     height: 33px;
     left: 5%;
     padding-top: 14px;
@@ -66,12 +66,12 @@ body {
     display: flex;
 }
 
-.nav_link_last {
+.nav__link_last {
     position: absolute;
     right: 5%;
 }
 
-.main_section {
+.main__section {
     position: absolute;
     height: 1320px;
     width: 100%;
@@ -83,7 +83,7 @@ body {
     padding: 0;
 }
 
-.main_section_h2 {
+.main__section-h2 {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     color: white;
     font-size: 30px;
@@ -92,7 +92,7 @@ body {
     font-weight: 500;
 }
 
-.main_section_p {
+.main__section-p {
     color: white;
     text-align: center;
     padding-left: 20px;
@@ -119,7 +119,7 @@ body {
   object-fit: cover;
 }
 
-  .main_section_button {
+  .main__section-button {
     display: flex;
     text-decoration: none;
     width: 120px;
@@ -130,7 +130,7 @@ body {
     transform: translateX(-50%);
   }
 
-  .main_section_button_p {
+  .main__section-button-p {
     display: block;
     font-size: 20px;
     font-weight: 400;
@@ -138,12 +138,12 @@ body {
     line-height: 30px;
   }
 
-  .main_section_Philosophy {
+  .main__section-Philosophy {
     position: absolute;
     top: 780px;
   }
 
-  .section_2_teaser {
+  .section-2-teaser {
     background-image: url(./images/section2_teaser.png);
     height: 215px;
     width: 319px;
@@ -155,7 +155,7 @@ body {
 
   }
 
-  .footerbg {
+  .footer__bg {
     position: absolute;
     background-image: url(./images/footerbg.png);
     height: 26em;
@@ -164,7 +164,7 @@ body {
     margin: auto;
   }
 
-  .footer_p {
+  .footer__p {
     color: white;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-weight: 300;
@@ -172,7 +172,7 @@ body {
     padding-top: 15px;
   }
 
-  .footer_line {
+  .footer__line {
     background-image: url(./images/footer_line.svg);
     height: 2px;
     width: 30px;
@@ -182,7 +182,7 @@ body {
     margin-bottom: 15px;
   }
 
-  .footer_socials {
+  .footer__socials {
     display: flex;
     gap: 8px;
     position: absolute;
@@ -191,7 +191,7 @@ body {
     top: 130px;
   }
 
-  .footer_content {
+  .footer__content {
     position: relative;
     top: 210px;
     z-index: 1;
@@ -209,7 +209,7 @@ body {
 
   }
 
-.bigline {
+.main__bigline {
   background-image: url(./images/about_big_line.svg);
   height: 2px;
   width: 319.0008548285137px;
@@ -220,7 +220,7 @@ body {
 
 }
 
-  .about_section_photo2 {
+  .main__section-photo2 {
     background-image: url(./images/about_photo2.png);
     height: 290px;
     width: 320px;
@@ -231,16 +231,16 @@ body {
 
   }
 
-  .section_position1 {
+  .section__position1 {
     padding-top: 120px;
   }
 
-.footer_content_position1 {
+.footer__content-position1 {
   top: 0px;
   margin-bottom: 100px;
 }
 
-  .header_text_H1_position1 {
+  .header_text-h1--position {
     position: absolute;
     top: 130px;
     left: 50%;

@@ -1,0 +1,86 @@
+@media (min-width: 1200px) {
+
+    .nav__navbar {
+        display: none;
+    }
+
+    .header__text {
+        display: none;
+    }
+
+    .nav {
+        background-image: url(./images/nav_bg_desktop.png);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main__section-p{
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    main{
+        position: relative;
+        top: -500px;
+    }
+
+    .gallery-container {
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .gallery-section img {
+        width: 450px;
+        height: 550px;
+    }
+
+    .main__section-Philosophy {
+        position: absolute;
+        top: 900px;
+    }
+
+    .main__section-content-Philosophy {
+        gap: 84px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+
+    .main__section-button {
+        top: 750px;
+
+    }
+    
+    .Philosophy_flex {
+        width: 20%;
+        top: 33%;
+        position: absolute;
+        left: 25%;
+    }
+    .section-2-teaser {
+        background-image: url(./images/section2_teaser_desktop.png);
+        height: 500px;
+        width: 888px;
+        left: 500px;
+    }
+
+    .footerbg {
+        background-image: url(./images/footerbg_desktop.jpg);
+        height: 1180px;
+        width: 100%;
+        top: 1500px;
+        position: relative;
+    }
+
+    .main_section {
+        background-color: black;
+        background-image: none;
+    }
+
+    
+}
