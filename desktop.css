@@ -190,4 +190,13 @@
         transform: none;
       }
 
+     .section__Philosophy {
+        margin-top: 50px;
+     }
+
+     .button:hover {
+        border: 2px solid black;
+        height: 2rem;
+        width: 8rem;
+     }
 }
