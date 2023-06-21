@@ -30,13 +30,19 @@
         width: 100%;
         background-size: cover;
         background-position: center;
-        background-repeat: round;
+        background-repeat: no-repeat;
+    }
+
+    .section__title {
+        font-size: 50px;
     }
 
     .section__subtitle{
         width: 30%;
         margin-left: 35%;
         margin-right: 35%;
+        font-size: 25px;
+        line-height: 36.2px;
     }
 
     main{
@@ -69,7 +75,7 @@
 
 
     .button {
-        top: 750px;
+        top: 900px;
 
     }
     
@@ -136,6 +142,11 @@
     .gallery_image {
         height: 550px;
         width: 450px;
+        transition: transform 1s;
+    }
+
+    .gallery_image:hover {
+        transform: scale(1.25);
     }
 
     .teaser__p {
@@ -151,5 +162,32 @@
     .footer__content--position1 {
         top: -500px;
     }
+
+    .footer__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;  
+        gap: 22px;
+
+      }
+      
+      .footer__line {
+        width: 30px;
+        height: 1px;
+        background-color: white;
+        border: none;
+        margin: 8px 0;
+        transform: rotate(90deg);
+      }
+      
+      .footer__socials {
+        display: flex;
+        gap: 8px;
+        position: relative;
+        left: 0%;
+        top: 0px;
+        transform: none;
+      }
 
 }

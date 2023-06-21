@@ -48,7 +48,7 @@ body {
 
 .nav {
     background-image: url(./images/nav_background.png);
-    background-repeat: round;
+     background-repeat: round;
     height: 416px;
     width: 100%;
     left: 0px;
@@ -159,11 +159,11 @@ body {
   .footer__bg {
     position: absolute;
     background-image: url(./images/footerbg.png);
-    background-repeat: round;
     height: 26em;
     width: 100%;
     top: 1735px;
     margin: auto;
+    background-repeat: round;
   }
 
   .footer__p {
@@ -171,17 +171,13 @@ body {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-weight: 300;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 0px;
   }
 
   .footer__line {
-    background-image: url(./images/footer_line.svg);
-    height: 2px;
-    width: 30px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 15px;
+    border-top: 0px solid white;
+    margin: 0 auto;
+    width: 30px; 
   }
 
   .footer__socials {
