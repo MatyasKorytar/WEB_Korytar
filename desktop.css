@@ -1,22 +1,39 @@
 @media (min-width: 1200px) {
 
     .nav__navbar {
-        display: none;
+       
+    }
+    
+    .navbar__logo-pic {
+        margin-top: 100px;
     }
 
-    .header__text {
-        display: none;
+    .navbar__link {
+        margin: 99px;
+        margin-left: 324px;
+    }
+
+    .teaser__h1 {
+        font-size: 100px;
+        position: relative;
+        text-align: center;
+        top: 110px;
+    }
+    .navbar__link--last {
+        margin-right: 324px;
     }
 
     .nav {
         background-image: url(./images/nav_bg_desktop.png);
+        background-size: auto;
         height: 100vh;
         width: 100%;
         background-size: cover;
         background-position: center;
+        background-repeat: round;
     }
 
-    .main__section-p{
+    .section__subtitle{
         width: 30%;
         margin-left: 35%;
         margin-right: 35%;
@@ -27,23 +44,23 @@
         top: -500px;
     }
 
-    .gallery-container {
+    .Explore3D__gallery {
         display: flex;
         overflow: hidden;
         justify-content: center;
     }
 
-    .gallery-section img {
+    .gallery__section img {
         width: 450px;
         height: 550px;
     }
 
-    .main__section-Philosophy {
+    .section__Philosophy {
         position: absolute;
         top: 900px;
     }
 
-    .main__section-content-Philosophy {
+    .Philosophy__flex {
         gap: 84px;
         margin: 0px;
         display: grid;
@@ -51,25 +68,21 @@
     }
 
 
-    .main__section-button {
+    .button {
         top: 750px;
 
     }
     
-    .Philosophy_flex {
-        width: 20%;
-        top: 33%;
-        position: absolute;
-        left: 25%;
+    .Philosophy__Phy-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .section-2-teaser {
-        background-image: url(./images/section2_teaser_desktop.png);
-        height: 500px;
-        width: 888px;
-        left: 500px;
+    .Phy-flex__teaser {
+
     }
 
-    .footerbg {
+    .footer__bg {
         background-image: url(./images/footerbg_desktop.jpg);
         height: 1180px;
         width: 100%;
@@ -82,5 +95,61 @@
         background-image: none;
     }
 
-    
+    .main__section {
+        height: 1600px;
+    }
+
+    .section__subtitle--phy {
+
+    }
+
+    .Phy-flex__teaser {
+        background-image: url(./images/section2_teaser_desktop.png);
+        height: 500px;
+        width: 888px;
+        left: -120px;
+        transform: none;
+
+    }
+
+    .section__Philosophy--desktop {
+        
+    }
+
+    .section__subtitle--Phy {
+        margin: 0px;
+        width: 25%;
+        margin-left: 0px;
+        font-size: 25px;
+        font-weight: 200;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        grid-row-gap: 88px;
+        grid-column-gap: 48px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gallery_image {
+        height: 550px;
+        width: 450px;
+    }
+
+    .teaser__p {
+        font-size: 30px;
+        font-weight: 300;
+        top: 50px;
+    }
+
+    .body__background--gallery {
+        height: 1600px;
+    }
+
+    .footer__content--position1 {
+        top: -500px;
+    }
+
 }

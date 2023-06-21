@@ -9,7 +9,7 @@ body {
     background-color: black;
 }
 
-.nav__link {
+.navbar__link {
     font-weight: 400;
     font-size: 20px;
     font-family: 'Zen Maru Gothic' sans-serif;
@@ -17,7 +17,7 @@ body {
     color: white;
 }
 
-.nav__logo-pic {
+.navbar__logo-pic {
     position: absolute;
     background-image: url(./images/nav_logo_mobile.svg);
     width: 25px;
@@ -27,7 +27,7 @@ body {
 
 }
 
-.header__text-h1 {
+.teaser__h1 {
   position: relative;
   top: 50px;
     font-weight: 700;
@@ -37,7 +37,7 @@ body {
     font-family: 'Zen Old Mincho', serif;
 }
 
-.header__text-p {
+.teaser__p {
     font-weight: 300;
     color: white;
     text-align: center;
@@ -48,6 +48,7 @@ body {
 
 .nav {
     background-image: url(./images/nav_background.png);
+    background-repeat: round;
     height: 416px;
     width: 100%;
     left: 0px;
@@ -66,14 +67,14 @@ body {
     display: flex;
 }
 
-.nav__link_last {
+.navbar__link--last {
     position: absolute;
     right: 5%;
 }
 
 .main__section {
     position: absolute;
-    height: 1320px;
+    height: 1420px;
     width: 100%;
     left: 0px;
     top: 416px;
@@ -83,7 +84,7 @@ body {
     padding: 0;
 }
 
-.main__section-h2 {
+.section__title {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     color: white;
     font-size: 30px;
@@ -92,7 +93,7 @@ body {
     font-weight: 500;
 }
 
-.main__section-p {
+.section__subtitle {
     color: white;
     text-align: center;
     padding-left: 20px;
@@ -104,22 +105,22 @@ body {
     font-weight: 300;
 }
 
-.gallery-container {
+.Explore3D__gallery{
   overflow-x: auto; 
 }
 
-.gallery-section {
+.gallery__section {
   display: flex;
   width: fit-content;
 }
 
-.gallery-section img {
+.gallery__section img {
   width: 100%;
   height: auto; 
   object-fit: cover;
 }
 
-  .main__section-button {
+  .button {
     display: flex;
     text-decoration: none;
     width: 120px;
@@ -130,7 +131,7 @@ body {
     transform: translateX(-50%);
   }
 
-  .main__section-button-p {
+  .button__text {
     display: block;
     font-size: 20px;
     font-weight: 400;
@@ -138,12 +139,12 @@ body {
     line-height: 30px;
   }
 
-  .main__section-Philosophy {
+  .section__Philosophy {
     position: absolute;
     top: 780px;
   }
 
-  .section-2-teaser {
+  .Phy-flex__teaser {
     background-image: url(./images/section2_teaser.png);
     height: 215px;
     width: 319px;
@@ -158,6 +159,7 @@ body {
   .footer__bg {
     position: absolute;
     background-image: url(./images/footerbg.png);
+    background-repeat: round;
     height: 26em;
     width: 100%;
     top: 1735px;
@@ -198,7 +200,7 @@ body {
   }
 
 
-  .about_section_photo1 {
+  .about__photo1 {
     background-image: url(./images/about_photo1.png);
     height: 290px;
     width: 320px;
@@ -220,7 +222,7 @@ body {
 
 }
 
-  .main__section-photo2 {
+  .about__photo2 {
     background-image: url(./images/about_photo2.png);
     height: 290px;
     width: 320px;
@@ -231,7 +233,7 @@ body {
 
   }
 
-  .section__position1 {
+  .section__about--position {
     padding-top: 120px;
   }
 
@@ -240,7 +242,7 @@ body {
   margin-bottom: 100px;
 }
 
-  .header_text-h1--position {
+  .teaser__h1--position {
     position: absolute;
     top: 130px;
     left: 50%;
@@ -301,3 +303,22 @@ body {
     background-size: cover;
   }
   
+  .body__background {
+    background-image: url(./images/main_section_bg.png);
+    background-repeat: round;
+    width: 100%;
+    left: 0px;
+    top: 416px;
+  }
+
+  .body__background--about {
+    height: 1320px;
+  }
+
+  .footer__content--position1 {
+    top: 0px;
+  }
+
+  .body__background--gallery {
+    height: 3000px;
+  }
