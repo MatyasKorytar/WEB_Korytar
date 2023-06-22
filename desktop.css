@@ -1,11 +1,8 @@
 @media (min-width: 1200px) {
 
-    .nav__navbar {
-       
-    }
-    
+
     .navbar__logo-pic {
-        margin-top: 100px;
+        margin-top: 0px;
     }
 
     .navbar__link {
@@ -13,17 +10,22 @@
         margin-left: 324px;
     }
 
-    .teaser__h1 {
+    .teaser__title {
         font-size: 100px;
         position: relative;
         text-align: center;
         top: 110px;
     }
     .navbar__link--last {
+        margin-top: 0px;
         margin-right: 324px;
     }
 
-    .nav {
+    .navbar__li {
+        margin-top: 6.25rem;
+    }
+
+    .header{
         background-image: url(./images/nav_bg_desktop.png);
         background-size: auto;
         height: 100vh;
@@ -50,7 +52,7 @@
         top: -500px;
     }
 
-    .Explore3D__gallery {
+    .section__gallery {
         display: flex;
         overflow: hidden;
         justify-content: center;
@@ -61,9 +63,11 @@
         height: 550px;
     }
 
-    .section__Philosophy {
-        position: absolute;
-        top: 900px;
+    .main__section--Philosophy {
+        position: relative;
+        margin-top: 6.25rem;
+        top: 0rem;
+
     }
 
     .Philosophy__flex {
@@ -75,25 +79,22 @@
 
 
     .button {
-        top: 900px;
+        top: 53.125rem;
 
     }
     
-    .Philosophy__Phy-flex {
+    .section__content {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .Phy-flex__teaser {
-
-    }
-
-    .footer__bg {
+    
+    .footer--main {
         background-image: url(./images/footerbg_desktop.jpg);
         height: 1180px;
         width: 100%;
-        top: 1500px;
         position: relative;
+        top: -3.125rem;
     }
 
     .main_section {
@@ -101,15 +102,15 @@
         background-image: none;
     }
 
-    .main__section {
+    .main-content {
         height: 1600px;
+        position: relative;
+        top:-3.125rem;
     }
 
-    .section__subtitle--phy {
 
-    }
 
-    .Phy-flex__teaser {
+    .content__teaser {
         background-image: url(./images/section2_teaser_desktop.png);
         height: 500px;
         width: 888px;
@@ -118,9 +119,7 @@
 
     }
 
-    .section__Philosophy--desktop {
-        
-    }
+ 
 
     .section__subtitle--Phy {
         margin: 0px;
@@ -139,20 +138,22 @@
         margin-right: auto;
     }
 
-    .gallery_image {
+    .gallery__image {
         height: 550px;
         width: 450px;
         transition: transform 1s;
+        z-index: 1;
     }
 
-    .gallery_image:hover {
-        transform: scale(1.25);
+    .gallery__image:hover {
+        transform: scale(1.15);
+        z-index: 1;
     }
 
-    .teaser__p {
+    .teaser__subtitle {
         font-size: 30px;
         font-weight: 300;
-        top: 50px;
+        top: 100px;
     }
 
     .body__background--gallery {
@@ -198,5 +199,79 @@
         border: 2px solid black;
         height: 2rem;
         width: 8rem;
+        border-radius: 0.5rem;
      }
+
+     .body-main {
+        height: 225rem;
+     }
+
+     .body-gallery {
+        height: 10rem;
+     }
+
+    .section__about {
+        display: flex;
+        gap: 12.5rem;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3.125rem;
+    }
+
+    .about__photo1 {
+        background-image: url(./images/about_photo1_desktop.png);
+        width: 35.375rem;
+        height: 25.4375rem;
+        left: 0rem;
+        transform: none;
+    }
+
+    .section__subtitle--about {
+        padding: 0;
+        margin: 0;
+    }
+
+    .about__photo2 {
+        background-image: url(./images/about_photo2_desktop.png);
+        width: 35.375rem;
+        height: 25.4375rem;
+        left: 0rem;
+        transform: none;
+        order: 2;
+    }
+
+    .section__subtitle--Tomas {
+        order: 1;
+    }
+
+    .section__subtitle--Stepan {
+
+    }
+
+    .main__bigline {
+        width: 89.8125rem;
+        top: 28.125rem;
+        margin-top: 3.125rem;
+        margin-bottom: 3.125rem;
+    }
+
+    .main--about {
+        margin-top: 0rem;
+        position: relative;
+        top: -20rem;
+    }
+
+    .body__background--about {
+        position: relative;
+        top: 0rem;
+    }
+
+    .teaser__title--About {
+        position: relative;
+        top: 8.125rem;
+    }
+     
+    .section__about--Tomas{
+        margin-top: 12.5rem;
+    }
 }

@@ -7,6 +7,7 @@
 body {
     margin: 0;
     background-color: black;
+    height: 100%;
 }
 
 .navbar__link {
@@ -15,6 +16,12 @@ body {
     font-family: 'Zen Maru Gothic' sans-serif;
     text-decoration: none;
     color: white;
+}
+
+.navbar__li {
+  margin-top: 0px;
+  list-style-type: none;
+  list-style-image: none;
 }
 
 .navbar__logo-pic {
@@ -27,7 +34,7 @@ body {
 
 }
 
-.teaser__h1 {
+.teaser__title {
   position: relative;
   top: 50px;
     font-weight: 700;
@@ -37,28 +44,30 @@ body {
     font-family: 'Zen Old Mincho', serif;
 }
 
-.teaser__p {
+.teaser__subtitle {
     font-weight: 300;
     color: white;
     text-align: center;
     font-size: 15px;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     position: relative;
+    top: 25px;
 }
 
-.nav {
+.header {
     background-image: url(./images/nav_background.png);
      background-repeat: round;
     height: 416px;
     width: 100%;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
+    left: 0;
+    top: 0;
+    border-radius: 0;
     margin: 0;
     padding: 0;
 }
 
 .nav__navbar {
+  margin-top: 0px;
     height: 33px;
     left: 5%;
     padding-top: 14px;
@@ -72,7 +81,7 @@ body {
     right: 5%;
 }
 
-.main__section {
+.main-content {
     position: absolute;
     height: 1420px;
     width: 100%;
@@ -105,7 +114,7 @@ body {
     font-weight: 300;
 }
 
-.Explore3D__gallery{
+.section__gallery{
   overflow-x: auto; 
 }
 
@@ -139,12 +148,12 @@ body {
     line-height: 30px;
   }
 
-  .section__Philosophy {
+  .main__section--Philosophy {
     position: absolute;
     top: 780px;
   }
 
-  .Phy-flex__teaser {
+  .content__teaser {
     background-image: url(./images/section2_teaser.png);
     height: 215px;
     width: 319px;
@@ -156,7 +165,7 @@ body {
 
   }
 
-  .footer__bg {
+  .footer--main {
     position: absolute;
     background-image: url(./images/footerbg.png);
     height: 26em;
@@ -245,38 +254,38 @@ body {
     transform: translateX(-50%);
   }
 
-  .gallery_img1 {
+  .gallery__image--img1 {
     background-image: url(./images/gallery/image1.png);
   }
 
-  .gallery_img2 {
+  .gallery__image--img2 {
     background-image: url(./images/gallery/image2.png);
   }
-  .gallery_img3 {
+  .gallery__image--img3 {
     background-image: url(./images/gallery/image3.png);
   }
 
-  .gallery_img4 {
+  .gallery__image--img4 {
     background-image: url(./images/gallery/image4.png);
   }
 
-  .gallery_img5 {
+  .gallery__image--img5 {
     background-image: url(./images/gallery/image5.png);
   }
 
-  .gallery_img6 {
+  .gallery__image--img6 {
     background-image: url(./images/gallery/image6.png);
   }
 
-  .gallery_img7 {
+  .gallery__image--img7 {
     background-image: url(./images/gallery/image7.png);
   }
 
-  .gallery_img8 {
+  .gallery__image--img8 {
     background-image: url(./images/gallery/image8.png);
   }
 
-  .gallery_img9 {
+  .gallery__image--img9 {
     background-image: url(./images/gallery/image9.png);
   }
 
@@ -290,7 +299,7 @@ body {
     overflow: auto; 
   }
   
-  .gallery_image {
+  .gallery__image {
     width: 320px;
     height: 290px;
     margin-bottom: 20px; 

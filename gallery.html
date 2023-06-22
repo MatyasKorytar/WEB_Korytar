@@ -3,35 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="desktop.css">
     <title>Document</title>
 </head>
-<body>
-    <header>
-        <nav class="nav">
-            <div class="nav__navbar">
-                <a class="navbar__link" href="./main.html">HOME</a>
-                <a href="./main.html"><div class="navbar__logo-pic"></div></a>
-                <a class="navbar__link navbar__link--last" href="./about.html">ABOUT</a>
-            </div>
-            <div class="nav__teaser">
-                <h1 class="teaser__h1">GALLERY</h1>
-            </div>
+<body class="body-gallery">
+
+    <header class="header">
+        <nav class="header__nav">
+            <menu class="nav__navbar">
+                <li class="navbar__li"><a class="navbar__link" href="./main.html">HOME</a></li>
+                <li class="navbar__li"><span class="navbar__logo-pic"></span></li>
+                <li class="navbar__li"><a class="navbar__link navbar__link--last" href="./about.html">ABOUT</a></li>
+            </menu>
         </nav>
+        <div class="header__teaser">
+            <h1 class="teaser__title">GALLERY</h1>
+        </div>
     </header>
+
 <div class="body__background body__background--gallery">
    <main>
         <div class="gallery">
-            <a href="./images/gallery/image1.png"><div class="gallery_image gallery_img1"></div></a>
-            <a href="./images/gallery/image2.png"><div class="gallery_image gallery_img2"></div></a>
-            <a href="./images/gallery/image3.png"><div class="gallery_image gallery_img3"></div></a>
-            <a href="./images/gallery/image4.png"><div class="gallery_image gallery_img4"></div></a>
-            <a href="./images/gallery/image5.png"><div class="gallery_image gallery_img5"></div></a>
-            <a href="./images/gallery/image6.png"><div class="gallery_image gallery_img6"></div></a>
-            <a href="./images/gallery/image7.png"><div class="gallery_image gallery_img7"></div></a>
-            <a href="./images/gallery/image8.png"><div class="gallery_image gallery_img8"></div></a>
-            <a href="./images/gallery/image9.png"><div class="gallery_image gallery_img9"></div></a>
+            <a href="./images/gallery/image1.png"><div class="gallery__image gallery__image--img1"></div></a>
+            <a href="./images/gallery/image2.png"><div class="gallery__image gallery__image--img2"></div></a>
+            <a href="./images/gallery/image3.png"><div class="gallery__image gallery__image--img3"></div></a>
+            <a href="./images/gallery/image4.png"><div class="gallery__image gallery__image--img4"></div></a>
+            <a href="./images/gallery/image5.png"><div class="gallery__image gallery__image--img5"></div></a>
+            <a href="./images/gallery/image6.png"><div class="gallery__image gallery__image--img6"></div></a>
+            <a href="./images/gallery/image7.png"><div class="gallery__image gallery__image--img7"></div></a>
+            <a href="./images/gallery/image8.png"><div class="gallery__image gallery__image--img8"></div></a>
+            <a href="./images/gallery/image9.png"><div class="gallery__image gallery__image--img9"></div></a>
         </div>
    </main>
    <footer>

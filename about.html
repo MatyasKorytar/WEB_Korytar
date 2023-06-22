@@ -3,33 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="desktop.css">
     <title>Document</title>
 </head>
 <body>
+
     <header class="header">
-        <nav class="nav">
-                <div class="nav__navbar">
-                    <a class="navbar__link" href="./main.html">HOME</a>
-                    <div class="navbar__logo-pic"></div>
-                    <a class="navbar__link navbar__link--last" href="./gallery.html">GALLERY</a>
-                </div>
-                <div class="nav__teaser">
-                    <h1 class="teaser__h1 teaser__h1--position">ABOUT</h1>
-                </div>
+        <nav class="header__nav">
+            <menu class="nav__navbar">
+                <li class="navbar__li"><a class="navbar__link" href="./main.html">HOME</a></li>
+                <li class="navbar__li"><span class="navbar__logo-pic"></span></li>
+                <li class="navbar__li"><a class="navbar__link navbar__link--last" href="./gallery.html">GALLERY</a></li>
+            </menu>
         </nav>
+        <div class="header__teaser">
+            <h1 class="teaser__title teaser__title--About">ABOUT</h1>
+        </div>
     </header>
+
 <div class="body__background body__background--about">    
-    <main>
-        <div class="section__about">
+    <main class="main--about">
+        <div class="section__about section__about--Stepan">
             <div class="about__photo1"></div>
-            <p class="section__subtitle">Stepan is the founder of SNB Cinematics. With a passion for technology and creativity, he has built a career around bringing innovative ideas to life. Stepan's dedication to his craft has helped him become a respected leader in the industry. He continues to push the limits of what is possible with 3D art and is committed to providing his clients with exceptional service and results.</p>
+            <p class="section__subtitle section__subtitle--about section__subtitle--Stepan">Stepan is the founder of SNB Cinematics. With a passion for technology and creativity, he has built a career around bringing innovative ideas to life. Stepan's dedication to his craft has helped him become a respected leader in the industry. He continues to push the limits of what is possible with 3D art and is committed to providing his clients with exceptional service and results.<br><br><span class="about_socials">Instagram: SNB_Cinematics<br>E-mail: stepan.bumbalek@gmail.com</span></p>
         </div>
         <div class="main__bigline"></div>
-        <div class="section__about section__about--position">
+        <div class="section__about section__about--Tomas">
             <div class="about__photo2"></div>
-            <p class="section__subtitle">Tomas is the creative head of SNB Cinematics. He brings a wealth of experience and passion for art and movies. His attention to detail, passion for storytelling, ability to think outside the box and his ability to bring ideas to life has earned him a reputation as one of the industry's top talents. His work has been featured in major publications and exhibitions, and he is committed to pushing the boundaries of what is possible with art and movies.</p>
+            <p class="section__subtitle  section__subtitle--about section__subtitle--Tomas">Tomas is the creative head of SNB Cinematics. He brings a wealth of experience and passion for art and movies. His attention to detail, passion for storytelling, ability to think outside the box and his ability to bring ideas to life has earned him a reputation as one of the industry's top talents. His work has been featured in major publications and exhibitions, and he is committed to pushing the boundaries of what is possible with art and movies.<br><br><span class="about_socials">Instagram: tomas.machalka_official<br>E-mail: tomas.machalka@seznam.cz</span></p>
         </div>
     </main>
     <footer>

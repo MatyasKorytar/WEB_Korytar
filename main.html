@@ -4,48 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="desktop.css">
 </head>
-<body>
-    <div class="header">
-        <nav class="nav">
-            <div class="nav__navbar">
-                <a class="navbar__link" href="./gallery.html">GALLERY</a>
-                <div class="navbar__logo-pic"></div>
-                <a class="navbar__link navbar__link--last" href="./about.html">ABOUT</a>
-            </div>
-            <div class="nav__teaser">
-                <h1 class="teaser__h1">SNB Cinematics</h1>
-                <p class="teaser__p">VFX and 3D animation</p>
-            </div>
+<body class="body-main">
+
+    <header class="header">
+        <nav class="header__nav">
+            <menu class="nav__navbar">
+                <li class="navbar__li"><a class="navbar__link" href="./gallery.html">GALLERY</a></li>
+                <li class="navbar__li"><span class="navbar__logo-pic"></span></li>
+                <li class="navbar__li"><a class="navbar__link navbar__link--last" href="./about.html">ABOUT</a></li>
+            </menu>
         </nav>
-    </div>
-    <main class="main">
-        <div class="main__section">
-            <div class="section__Explore3D">
+        <div class="header__teaser">
+            <h1 class="teaser__title">SNB Cinematics</h1>
+            <p class="teaser__subtitle">VFX and 3D animation</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+
+            <div class="main__section">
                 <h2 class="section__title">Explore The 3D</h2>
                 <p class="section__subtitle">Step into our 3D art gallery and explore a world of imagination brought to life. Our collection of stunning 3D models will transport you to new dimensions and inspire your creativity. Browse our selection and discover the power of 3D art.</p>
-                <div class="Explore3D__gallery">
+                <div class="section__gallery">
                     <div class="gallery__section">
                         <img src="./images/main_section_gallery/img1.png" alt="hrad">
                         <img src="./images/main_section_gallery/img2.png" alt="krajina">
                         <img src="./images/main_section_gallery/img3.png" alt="louka">
                     </div>
                 </div>
-                <a href="./gallery.html" class="button"><div class="button__text">SEE MORE ></div></a>
+                <a href="./gallery.html" class="button"><span class="button__text">SEE MORE ></span></a>
             </div>
-            <div class="section__Philosophy">
+
+            <div class="main__section main__section--Philosophy">
                 <h2 class="section__title">Our Philosophy</h2>
-                <div class="Philosophy__Phy-flex">
-                    <div class="Phy-flex__teaser"></div>
+                <div class="section__content">
+                    <div class="content__teaser"></div>
                     <p class="section__subtitle section__subtitle--Phy">Our philosophy is simple - we believe that anyone can create something beautiful with the right tools and guidance. We're passionate about teaching and inspiring others to explore their creativity and discover the amazing world of 3D art. Whether you're an experienced artist or a beginner just starting out, we're here to help you unlock your potential and unleash your imagination.</p>
                 </div>
             </div>
-        </div>
+
     </main>
-    <footer class="footer">
-        <div class="footer__bg">
+    <footer class="footer footer--main">
             <div class="footer__content">
                 <p class="footer__p">© 2022 SNB CINEMATICS. All rights reserved.</p>
                 <hr class="footer__line"></hr>
@@ -56,7 +59,6 @@
                     <a href="#" class="footer__button1"><img class="button__mobile-img" src="./images/Socials/FB.svg" alt="fb"></a>
                 </div>
             </div>
-        </div>
     </footer>
 </body>
 </html>
