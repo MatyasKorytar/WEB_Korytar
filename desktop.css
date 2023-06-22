@@ -108,6 +108,14 @@
         top:-3.125rem;
     }
 
+    .footer__content--main {
+        position: absolute;
+        top: 65rem;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
 
 
     .content__teaser {
@@ -161,7 +169,7 @@
     }
 
     .footer__content--position1 {
-        top: -500px;
+        top: -6.25rem;
     }
 
     .footer__content {
@@ -204,10 +212,6 @@
 
      .body-main {
         height: 225rem;
-     }
-
-     .body-gallery {
-        height: 10rem;
      }
 
     .section__about {
@@ -274,4 +278,10 @@
     .section__about--Tomas{
         margin-top: 12.5rem;
     }
+
+    .footer--gallery{
+        position: relative;
+        top: -21.25rem;
+    }
+
 }
