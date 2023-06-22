@@ -243,7 +243,7 @@ body {
   }
 
 .footer__content-position1 {
-  top: 0px;
+  top: 9.375rem;
   margin-bottom: 100px;
 }
 
@@ -299,6 +299,10 @@ body {
     overflow: auto; 
   }
   
+  .about_socials {
+    display: none;
+  }
+
   .gallery__image {
     width: 320px;
     height: 290px;
@@ -327,3 +331,191 @@ body {
   .body__background--gallery {
     height: 3000px;
   }
+
+  
+  .section__about--Tomas {
+    position: relative;
+    top: 9.375rem;
+  }
+
+@media (min-width: 485px) {
+    .button {
+      display: none;
+    }
+  }
+
+
+@media (min-width: 530px)  and (max-width: 849px){
+
+      .header {
+        background-image: url(./images/nav_bg_desktop.png);
+      }
+
+      .footer--main {
+        top: 103.125rem;
+        background-image: url(./images/footerbg_desktop.jpg);
+      }
+
+      .button {
+        display: none;
+      }
+
+      .section__about--Tomas {
+        position: relative;
+        top: 5rem;
+      }
+
+      .main__bigline {
+        position: relative;
+        top: 1.5625rem;
+      }
+
+    }
+
+@media (min-width: 530px) and (max-width: 669px) {
+
+  
+        .button {
+          display: none;
+        }
+
+        .section__subtitle {
+          width: 40%;
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+          padding: 0;
+          z-index: 1;
+        }
+
+        .gallery__section {
+          display: grid;
+          grid-template-rows: auto auto;
+          justify-content: center; 
+        }
+
+        .gallery__section img {
+          width: 12.5rem;
+          height: 15.625rem;
+        }
+
+        .section__gallery {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        .section__img--first {
+          grid-row: 1;
+        }
+
+        .section__img--middle {
+          grid-row: 1;
+        }
+
+        .section__img--last {
+          grid-row: 2;
+          justify-self: center;
+          margin-left: 100%;
+          margin-right: 0%;
+        }
+
+        .section__subtitle--Phy {
+          width: 90%;
+        }
+}
+@media (min-width: 670px) and (max-width: 1199px) {     
+  .gallery__section {
+    display: flex;
+    justify-content: center; 
+  }
+
+  .gallery__section img {
+    width: 12.5rem;
+    height: 15.625rem;
+  }
+
+  .section__gallery {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .main__section--Philosophy {
+    top: 30rem;
+  }
+
+  .section__subtitle--3D {
+    width: 40rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .section__subtitle--Phy {
+    width: 30%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .main__bigline {
+    display: none;
+  }
+
+  .section__subtitle--about {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 850px) and (max-width: 1199px) {
+    
+  .header{
+    background-image: url(./images/nav_bg_desktop.png);
+    background-size: auto;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  .footer--main{
+    background-image: none;
+    width: 100%;
+    position: relative;
+    top: 31.125rem;
+}
+
+
+
+
+
+}
+
+@media (min-width: 1199px) and (max-width: 1650px) {
+  .gallery__image {
+    width: 20rem !important;
+    height: 18.125rem !important;
+  }
+
+  .body__background--gallery {
+    height: 51.25rem;
+  }
+
+  .main__bigline {
+  display: none;
+  }
+}
+
+@media (min-width: 1651px) {
+  .body__background--gallery {
+    height: 100rem;
+  }
+
+  .about_socials {
+    display: block;
+  }
+
+
+}
